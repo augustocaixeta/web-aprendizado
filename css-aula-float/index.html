@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        .container-img {
+            border: 1px solid black;
+            height: 128px;
+            width: 128px;
+            float: left;
+            margin: 16px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            padding: 24px;
+            background: black;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        li a {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        li a:hover .dropdown:hover .dropbtn {
+            background: white;
+            color: black;
+        }
+
+        .container > p, h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .container > h3 {
+            margin: 16px 0;
+        }
+    </style>
+    <body>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li class="dropdown"><a class="btn-dropdown" href="#">Sobre</a>
+                <div class="container-dropdown">
+                    <a href="#">Item 1</a>
+                    <a href="#">Item 2</a>
+                    <a href="#">Item 3</a>
+                    <a href="#">Item 4</a>
+                </div>
+            </li>
+            <li><a href="#">Entrar</a></li>
+            <li><a href="#">Registrar</a></li>
+        </ul>
+        <div class="container">
+            <div class="container-img"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusamus tempore ea culpa. Cum amet dicta soluta mollitia. Inventore sapiente voluptatum deleniti omnis voluptates nobis labore ab nemo eum facere.</p>
+            <p>Reprehenderit, iste. Temporibus, eos suscipit ad excepturi minus accusamus culpa fugit nesciunt, error autem quis dicta aliquid, harum perferendis consequatur quos incidunt. Sit, porro pariatur id dolores ducimus praesentium provident!</p>
+            <p>Explicabo, fugit ea! Non ut aspernatur deserunt nulla eos labore itaque? Eaque, consequuntur rerum. Nemo modi repellat deserunt quibusdam praesentium, ex, excepturi tenetur ipsam perspiciatis harum rem assumenda nam illum.</p>
+            <p>Itaque animi perspiciatis, quis iste ad ullam ducimus distinctio porro voluptas assumenda cupiditate deserunt quibusdam quasi minima unde dolorum officiis magni impedit quod ipsa rem eligendi error saepe eos! Tempora.</p>
+            <p>Et eum fugit hic praesentium consequuntur perspiciatis culpa error! Reprehenderit pariatur consequatur ducimus sunt nobis cum placeat? Quisquam pariatur iste, rerum facilis sapiente reprehenderit impedit quae repudiandae molestias possimus ullam?</p>
+
+            <h3>Titulo Criativo</h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error earum rem veniam excepturi harum! Accusantium in laborum ipsum voluptate, incidunt beatae dicta quas, quisquam deserunt repellat totam expedita quo.</p>
+            <p>Doloribus maxime consectetur, rem facere id repellat ipsa, voluptates consequuntur magnam fugiat minus perspiciatis culpa eaque quo blanditiis illo odit sequi exercitationem. Sint saepe hic dolore, expedita ratione ullam officia.</p>
+            <p>Eveniet consequuntur ad ex dolores exercitationem quo, harum rerum quas magnam iusto itaque eaque consequatur doloremque nihil dolorum maxime voluptates cumque ducimus praesentium cupiditate ratione voluptatem quaerat ea! Temporibus, distinctio.</p>
+        </div>
+    </body>
+</html>

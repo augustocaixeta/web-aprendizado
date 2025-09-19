@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container-cabecalho {
+            width: 100%;
+            height: 8em;
+            background: blueviolet;
+        }
+
+        .container-principal {
+            position: relative;
+            background: blue;
+            width: 100%;
+            height: 400px;
+        }
+
+        .sub-container-yellow {
+            position: sticky;
+            top: 0;
+            margin-left: 80px;
+            display: inline-block;
+            width: 30%;
+            height: 100px;
+            background: yellow;
+        }
+
+        .sub-container-white {
+            position: relative;
+            display: inline-block;
+            width: 30%;
+            height: 100px;
+            background: white;
+        }
+
+        .sub-container-red {
+            display: inline-block;
+            width: 30%;
+            height: 100px;
+            background: red;
+            position: absolute;
+            top: 30px;
+        }
+
+        .whats {
+            background: green;
+            color: white;
+            width: 80px;
+            height: 80px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .container-conteudo-principal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10em;
+            min-height: 100vh;
+        }
+
+        .container-conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            max-width: 256px;
+        }
+
+        .container-conteudo > p {
+            text-align: center;
+        }
+    </style>
+    <body>
+        <div class="container-cabecalho"></div>
+        <div class="container-principal">
+            <div class="sub-container-yellow">Primeiro Container</div>
+            <div class="sub-container-white">Segundo Container</div>
+            <div class="sub-container-red">Terceiro Container</div>
+            <div class="whats">Whats</div>
+        </div>
+        <div class="container-conteudo-principal">
+            <div class="container-conteudo">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolorem accusantium voluptatem illo ullam magni debitis incidunt. Quas, magnam iusto totam obcaecati, corrupti molestiae ipsam quisquam harum ab enim in.</p>
+                <p>Recusandae aliquam a ratione, voluptatum voluptatem ut nisi obcaecati et asperiores sit fugiat explicabo totam rem laboriosam hic at harum iste voluptate alias. Odio facilis, sapiente sed doloremque veritatis quam.</p>
+                <p>Est illum facere placeat nostrum, autem dolorem consequuntur, illo blanditiis voluptatum corrupti exercitationem dignissimos ut repellendus molestias facilis consequatur similique libero pariatur necessitatibus hic sed in. Dolore eligendi dolor eveniet.</p>
+                <p>Veniam, explicabo accusantium ullam magnam, deserunt fugit facere voluptatibus atque dolores, cumque debitis rem iste incidunt assumenda rerum a maxime? Animi itaque dolores doloremque tenetur natus sed porro quas nesciunt.</p>
+                <p>Architecto optio accusantium repudiandae alias amet fugit enim, harum praesentium debitis magnam inventore cupiditate tempore explicabo officia beatae nihil provident nobis quo hic? Laboriosam minus voluptatibus maiores unde accusantium provident.</p>
+            </div>
+        </div>
+    </body>
+</html>
