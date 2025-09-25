@@ -120,8 +120,7 @@ section a.quadrado {
     align-items: center;
 }
 
-section a.quadrado:hover,
-section a.quadrado:focus {
+section a.quadrado:hover {
     background-color: #e0e7ff;
     box-shadow: 0 6px 20px rgba(37, 117, 252, 0.3);
     outline: none;
